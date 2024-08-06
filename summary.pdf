@@ -1,0 +1,40 @@
+# Summary Report
+
+## Introduction
+
+This project involves applying Fisher's Linear Discriminant (FLD) and Linear Support Vector Machine (SVM) classifiers to a binary classification task using the [Your Dataset Name].
+
+## Dataset
+
+The dataset contains [number of features] numeric features and [number of examples] labeled examples.
+
+- **Total examples**: [number of examples]
+- **Classes**: Binary (0: [class name], 1: [class name])
+
+## Data Preparation
+
+The data was split into training and testing sets:
+
+- **Training set**: 75% ([number of training examples])
+- **Testing set**: 25% ([number of testing examples])
+
+Normalization was applied using `StandardScaler`.
+
+## Classifier Training
+
+Two classifiers were trained:
+
+1. **Fisher's Linear Discriminant (FLD)**
+2. **Linear Support Vector Machine (SVM)**
+
+## Computational Times
+
+| Classifier | Training Time (seconds) | Testing Time (seconds) |
+|------------|-------------------------|------------------------|
+| FLD        | [time]                  | [time]                 |
+| SVM        | [time]                  | [time]                 |
+
+## Confusion Matrix and Classification Report
+
+### Fisher's Linear Discriminant (FLD)
+
